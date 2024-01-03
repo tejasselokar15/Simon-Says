@@ -1,0 +1,65 @@
+
+.gamename {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: xx-large;
+    font-family:fantasy;
+}
+h2{
+    
+        
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;  
+            color: rgb(176, 176, 184);
+            font-size: larger;
+            margin-top: 30px;  
+        
+        
+    
+    
+}
+
+.btn{
+  height: 200px;
+  width:200px;
+  
+  border: 6px solid rgb(18, 15, 15);
+  /* margin: 2rem; */
+}
+body{
+    background-color: rgb(20, 20, 20);
+    color: aliceblue;
+}
+.btnContainer{
+    display: flex;
+    justify-content: center;
+}
+
+.yellow{
+    background-color: yellow;
+    border-bottom-left-radius: 100%;
+}
+.red
+{
+    background-color: red;
+    border-top-left-radius: 100%;
+}
+.blue{
+    background-color: blue;
+    border-top-right-radius: 100%;
+}
+.green{
+    background-color: rgb(12, 67, 12);
+    border-bottom-right-radius: 100%;
+}
+.flash{
+    background-color: aliceblue;
+}
+
+.userflash{
+    background-color: rgb(30, 255, 0);
+}
